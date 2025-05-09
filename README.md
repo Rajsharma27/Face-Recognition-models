@@ -15,10 +15,15 @@ Prediction on test images via a simple Python script
 
 🧱 Tech Stack
 Python
-
 TensorFlow / Keras
-
 NumPy, Pandas
-
 Matplotlib / Seaborn (for visualizations)
 
+🧠 Model Architecture
+A custom CNN model with the following layers:
+
+2–3 Convolutional + MaxPooling layers
+Flatten + Dense + Dropout
+Output layer with Softmax activation
+
+Implemented using TensorFlow/Keras.
